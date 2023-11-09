@@ -1,0 +1,12 @@
+{
+  "name": "peliculas",
+  "version": "1.0.0",
+  "description": "PaginaWeb Desarrollo de Aplicaciones Web",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AngelRojas",
+  "license": "ISC"
+}
