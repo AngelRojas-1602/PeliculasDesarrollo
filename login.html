@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-    <title>Pelis BUAP-Lista de Peliculas</title>
+    <title>Pelis BUAP-Inicio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-Kf2RXFR8h5Ejz6I3jepduWl6pXssYAbpAxb8Jfj2p5O9n9u6r6ccJlTtg1F8fV/1kgqPZEHLywh1jddqRZKlUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/templatemo.css">
@@ -14,6 +15,7 @@
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
 </head>
 
 <body>
@@ -61,7 +63,7 @@
                     <a class="nav-icon position-relative text-decoration-none" href="favoritas.html">
                         <i class="fa fa-fw fa-heart text-dark mr-1"></i>
                         <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
-                    </a>                    
+                    </a>                                        
                     <a class="nav-icon position-relative text-decoration-none" href="/login.html">
                         <i class="fa fa-fw fa-user text-dark mr-3"></i>
                         <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
@@ -90,61 +92,35 @@
         </div>
     </div>
 
-    <!-- Start Content -->
-    <div class="container py-5">
-        <div class="row">
-
-            <div class="col-lg-3">
-                <h1 class="h2 pb-4">Categorias</h1>
-                <ul class="list-unstyled templatemo-accordion">
-                    <li class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
-                            Generos
-                            <i class="fa fa-fw fa-chevron-circle-down mt-1"></i>
-                        </a>
-                        <ul class="collapse show list-unstyled pl-3">
-                            <li><a class="text-decoration-none" href="#">Accion</a></li>
-                            <li><a class="text-decoration-none" href="#">Comedia</a></li>
-                            <li><a class="text-decoration-none" href="#">Drama</a></li>
-                            <li><a class="text-decoration-none" href="#">Romance</a></li>
-                            <li><a class="text-decoration-none" href="#">Ciencia Ficcion</a></li>
-                            <li><a class="text-decoration-none" href="#">Fantasia</a></li>
-                            <li><a class="text-decoration-none" href="#">Terror</a></li>
-                            <li><a class="text-decoration-none" href="#">Thriller</a></li>
-                            <li><a class="text-decoration-none" href="#">Documental</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-lg-9">
-                <div class="row">
-                    <div class="col-md-6">
-                        <ul class="list-inline shop-top-menu pb-3 pt-1">
-                            <li class="list-inline-item">
-                                <a class="h3 text-dark text-decoration-none mr-3" href="#">Todas</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 pb-4">
-                        <div class="d-flex">
-                            <select class="form-control">
-                                <option>A a la Z</option>
-                                <option>Año</option>
-                                <option>Mejor Calificado</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="container" id="contenedor-peliculas">
-                        <!-- Las películas se agregarán aquí dinámicamente desde JavaScript -->
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!--Aqui va el Login y Register-->
+    <div class="modal fade" id="templatemo_login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Iniciar Sesión</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <!-- Formulario de inicio de sesión -->
+                  <form id="loginForm">
+                      <div class="mb-3">
+                          <label for="username" class="form-label">Usuario</label>
+                          <input type="text" class="form-control" id="username" name="username" required>
+                      </div>
+                      <div class="mb-3">
+                          <label for="password" class="form-label">Contraseña</label>
+                          <input type="password" class="form-control" id="password" name="password" required>
+                      </div>
+                      <button type="submit" class="btn btn-success">Iniciar Sesión</button>
+                  </form>
+              </div>
+              <div class="modal-footer">
+                  <p class="text-muted">¿No tienes una cuenta? <a href="/register.html">Regístrate</a></p>
+              </div>
+          </div>
+      </div>
     </div>
-    <!-- End Content -->
+    <!-- Aquí termina el Login y Register -->
 
     <!-- Start Footer -->
     <footer class="bg-dark" id="tempaltemo_footer">
@@ -213,8 +189,6 @@
     <script src="assets/js/jquery-1.11.0.min.js"></script>
     <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/templatemo.min.js"></script>
-    <script src="assets/js/custom.js"></script>
     <!-- End Script -->
 </body>
 
