@@ -2,11 +2,10 @@
 <html lang="en">
 
 <head>
-    <title>Peliulas BUAP-Favoritas</title>
+    <title>Pelis BUAP-Lista de Peliculas</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-Kf2RXFR8h5Ejz6I3jepduWl6pXssYAbpAxb8Jfj2p5O9n9u6r6ccJlTtg1F8fV/1kgqPZEHLywh1jddqRZKlUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/templatemo.css">
@@ -15,11 +14,9 @@
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-
 </head>
 
 <body>
-    
     <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-light shadow">
         <div class="container d-flex justify-content-between align-items-center">
@@ -61,7 +58,7 @@
                     <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
                         <i class="fa fa-fw fa-search text-dark mr-2"></i>
                     </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="/favoritas.html">
+                    <a class="nav-icon position-relative text-decoration-none" href="favoritas.html">
                         <i class="fa fa-fw fa-heart text-dark mr-1"></i>
                         <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
                     </a>                    
@@ -93,30 +90,68 @@
         </div>
     </div>
 
-    <!--Stat Favoritas-->
-
-     <!-- Start Content -->
-     <div class="container py-5">
+    <!-- Start Content -->
+    <div class="container py-5">
         <div class="row">
             <div class="col-lg-3">
                 <h1 class="h2 pb-4">Categorias</h1>
                 <ul class="list-unstyled templatemo-accordion">
                     <li class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
-                            Generos
-                            <i class="fa fa-fw fa-chevron-circle-down mt-1"></i>
-                        </a>
-                        <ul class="collapse show list-unstyled pl-3">
-                            <li><a class="text-decoration-none" href="#">Accion</a></li>
-                            <li><a class="text-decoration-none" href="#">Comedia</a></li>
-                            <li><a class="text-decoration-none" href="#">Drama</a></li>
-                            <li><a class="text-decoration-none" href="#">Romance</a></li>
-                            <li><a class="text-decoration-none" href="#">Ciencia Ficcion</a></li>
-                            <li><a class="text-decoration-none" href="#">Fantasia</a></li>
-                            <li><a class="text-decoration-none" href="#">Terror</a></li>
-                            <li><a class="text-decoration-none" href="#">Thriller</a></li>
-                            <li><a class="text-decoration-none" href="#">Documental</a></li>
-                        </ul>
+                        <li class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" id="categoria-accion">
+                                Acción
+                            </a>
+                        </li>
+                        <li class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" id="categoria-drama">
+                                Drama
+                            </a>
+                        </li>
+                        <li class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" id="categoria-fantasia">
+                                Fantasía
+                            </a>
+                        </li>
+                        <li class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" id="categoria-crimen">
+                                Crimen
+                            </a>
+                        </li>
+                        <li class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" id="categoria-western">
+                                Western
+                            </a>
+                        </li>
+                        <li class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" id="categoria-suspenso">
+                                Suspenso psicológico
+                            </a>
+                        </li>
+                        <li class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" id="categoria-cienciaficcion">
+                                Ciencia ficción
+                            </a>
+                        </li>
+                        <li class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" id="categoria-thriller">
+                                Thriller
+                            </a>
+                        </li>
+                        <li class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" id="categoria-terror">
+                                Terror
+                            </a>
+                        </li>
+                        <li class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" id="categoria-comedia">
+                                Comedia
+                            </a>
+                        </li>
+                        <li class="pb-3">
+                            <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" id="categoria-animacion">
+                                Animación
+                            </a>
+                        </li>
                     </li>
                 </ul>
             </div>
@@ -132,23 +167,21 @@
                     </div>
                     <div class="col-md-6 pb-4">
                         <div class="d-flex">
-                            <select class="form-control">
-                                <option>A a la Z</option>
-                                <option>Año</option>
-                                <option>Mejor Calificado</option>
-                            </select>
+                            <select id="filtro-peliculas" class="form-control">
+                                <option value="a-z">A a la Z</option>
+                                <option value="ano">Año</option>
+                                <option value="calificacion">Mejor Calificado</option>
+                            </select>                            
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div id="moviesContainer"></div>
+                    <div id="peliculas-container" class="row"></div>
                 </div>
             </div>
         </div>
     </div>
     <!-- End Content -->
-    
-    <!--End Favoritas-->
 
     <!-- Start Footer -->
     <footer class="bg-dark" id="tempaltemo_footer">
@@ -217,43 +250,381 @@
     <script src="assets/js/jquery-1.11.0.min.js"></script>
     <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.min.js"></script>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-        // Hacer una solicitud GET al endpoint de películas
-        fetch('http://tu-backend/api/movies')
-            .then(response => response.json())
-            .then(data => {
-            // Manejar la respuesta y mostrar las películas en el contenedor
-            const moviesContainer = document.getElementById('moviesContainer');
+        var peliculas = [ {
+    "Nombre": "El Padrino",
+    "Anio": 1972,
+    "Genero": "Drama",
+    "Descripcion": "La película sigue la vida de la familia Corleone, una poderosa familia de la mafia italoamericana liderada por Don Vito Corleone (Marlon Brando). La historia se centra en el hijo menor de Don Vito, Michael Corleone (Al Pacino), quien asume el control de la familia después de que su padre es atacado. La película es conocida por su actuación estelar, la dirección y la música.",
+    "Calificacion": 4.3,
+    "NumResenas": 267,
+    "img": "https://musicart.xboxlive.com/7/61295200-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+    "link" : "ElPadrino.html"
+  },
+  {
+    "Nombre": "El Caballero de la Noche",
+    "Anio": 2008,
+    "Genero": "Acción",
+    "Descripcion": "La película sigue al superhéroe Batman (Christian Bale) mientras lucha contra el crimen en Ciudad Gótica. En esta entrega, Batman se enfrenta al Joker (Heath Ledger), un villano psicótico que amenaza con destruir la ciudad. La película es conocida por su actuación estelar, la dirección y la música.",
+    "Calificacion": 4.8,
+    "NumResenas": 431,
+    "img": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpghttps://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
+    "link" : "DarkNight.html"
+  },
+  {
+    "Nombre": "La Lista de Schindler",
+    "Anio": 1993,
+    "Genero": "Drama",
+    "Descripcion": "La película cuenta la historia de Oskar Schindler (Liam Neeson), un empresario alemán que salva a más de mil judíos polacos durante el Holocausto empleándolos como trabajadores de sus fábricas. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.9,
+    "NumResenas": 372,
+    "img": "https://es.web.img3.acsta.net/pictures/19/02/12/18/49/4078948.jpg",
+    "link" : "ListaSchindler.html"
+  },
+  {
+    "Nombre": "El Señor de los Anillos: El Retorno del Rey",
+    "Anio": 2003,
+    "Genero": "Fantasía",
+    "Descripcion": "La película es la tercera y última entrega de la trilogía de El Señor de los Anillos. La historia sigue al hobbit Frodo Bolsón (Elijah Wood) mientras intenta destruir el Anillo Único en el Monte del Destino. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.7,
+    "NumResenas": 289,
+    "img": "https://pics.filmaffinity.com/El_seanor_de_los_anillos_El_retorno_del_rey-178294596-mmed.jpg",
+    "link" : "RetornoRey.html"
+  },
+  {
+    "Nombre": "Pulp Fiction",
+    "Anio": 1994,
+    "Genero": "Crimen",
+    "Descripcion": "La película cuenta varias historias interconectadas sobre la vida de gánsteres, boxeadores, asesinos y otros personajes en Los Ángeles. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.5,
+    "NumResenas": 198,
+    "img": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+    "link" : "PulpFiction.html"
+  },
+  {
+    "Nombre": "El Bueno, el Malo y el Feo",
+    "Anio": 1966,
+    "Genero": "Western",
+    "Descripcion": "La película sigue a tres hombres que buscan un tesoro enterrado en un cementerio. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.2,
+    "NumResenas": 356,
+    "img": "https://www.themoviedb.org/t/p/w500/vd9uj5KLlOrJnvNH03exLDlMAE0.jpg",
+    "link" : "BuenoMaloFeo.html"
+  },
+  {
+    "Nombre": "El Club de la Pelea",
+    "Anio": 1999,
+    "Genero": "Drama",
+    "Descripcion": "La película sigue a un hombre sin nombre (Edward Norton) que lucha contra su insomnio y su aburrida vida. Conoce a Tyler Durden (Brad Pitt), un vendedor de jabón carismático y desenfadado, y juntos forman un club de lucha clandestino. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.4,
+    "NumResenas": 275,
+    "img": "https://imagenes.passline.com/eventos/el-club-de-la-pelea-cine-arte-vina-del-mar-220522-min.jpg",
+    "link" : "ClubPelea.html"
+  },
+  {
+    "Nombre": "Forrest Gump",
+    "Anio": 1994,
+    "Genero": "Drama",
+    "Descripcion": "La película sigue la vida de Forrest Gump (Tom Hanks), un hombre con discapacidad intelectual que vive una vida extraordinaria. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.6,
+    "NumResenas": 413,
+    "img": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+    "link" : "ForrestGump.html"
+  },
+  {
+    "Nombre": "El Silencio de los Inocentes",
+    "Anio": 1991,
+    "Genero": "Thriller",
+    "Descripcion": "La película sigue a Clarice Starling (Jodie Foster), una joven agente del FBI que busca la ayuda del Dr. Hannibal Lecter (Anthony Hopkins), un psiquiatra caníbal encarcelado, para atrapar a un asesino en serie. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.9,
+    "NumResenas": 487,
+    "img": "https://es.web.img3.acsta.net/medias/nmedia/18/74/29/15/19757760.jpg",
+    "link" : "SilencioInocentes.html"
+  },
+  {
+    "Nombre": "El Señor de los Anillos: La Comunidad del Anillo",
+    "Anio": 2001,
+    "Genero": "Fantasía",
+    "Descripcion": "La película es la primera entrega de la trilogía de El Señor de los Anillos. La historia sigue al hobbit Frodo Bolsón (Elijah Wood) mientras intenta destruir el Anillo Único en el Monte del Destino. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.8,
+    "NumResenas": 304,
+    "img": "https://pics.filmaffinity.com/El_seanor_de_los_anillos_La_comunidad_del_anillo-744631610-large.jpg",
+    "link" : "ComunidadAnillo.html"
+  },
+  {
+    "Nombre": "Matrix",
+    "Anio": 1999,
+    "Genero": "Ciencia ficción",
+    "Descripcion": "La película sigue a Thomas Anderson (Keanu Reeves), un programador de computadoras que descubre que su realidad es una simulación creada por máquinas. La película es conocida por su dirección, la actuación y los efectos especiales.",
+    "Calificacion": 4.7,
+    "NumResenas": 248,
+    "img": "https://pics.filmaffinity.com/Matrix-155050517-large.jpg",
+    "link" : "Matrix.html"
+  },
+  {
+    "Nombre": "Star Wars: Episodio V - El Imperio Contraataca",
+    "Anio": 1980,
+    "Genero": "Ciencia ficción",
+    "Descripcion": "La película es la segunda entrega de la trilogía original de Star Wars. La historia sigue a Luke Skywalker.",
+    "Calificacion": 4.6,
+    "NumResenas": 398,
+    "img": "https://m.media-amazon.com/images/I/819b4+jy74L._AC_UF894,1000_QL80_.jpg",
+    "link" : "EpisodioV.html"
+  },
+  {
+    "Nombre": "El Resplandor",
+    "Anio": 1980,
+    "Genero": "Terror",
+    "Descripcion": "La película sigue a Jack Torrance (Jack Nicholson), un escritor en busca de inspiración que acepta un trabajo como cuidador de invierno en el Hotel Overlook. Con el tiempo, Jack comienza a perder la cordura y aterroriza a su familia. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.5,
+    "NumResenas": 361,
+    "img": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2016/11/resplandor.jpg?tf=1920x",
+    "link" : "Resplandor.html"
+  },
+  {
+    "Nombre": "El Señor de los Anillos: Las Dos Torres",
+    "Anio": 2002,
+    "Genero": "Fantasía",
+    "Descripcion": "La película es la segunda entrega de la trilogía de El Señor de los Anillos. La historia sigue al hobbit Frodo Bolsón (Elijah Wood) mientras intenta destruir el Anillo Único en el Monte del Destino. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.7,
+    "NumResenas": 472,
+    "img": "https://musicart.xboxlive.com/7/fdd21000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+    "link" : "DosTorres.html"
+  },
+  {
+    "Nombre": "El Pianista",
+    "Anio": 2002,
+    "Genero": "Drama",
+    "Descripcion": "La película cuenta la historia de Władysław Szpilman (Adrien Brody), un pianista judío polaco que sobrevive al Holocausto en Varsovia. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.8,
+    "NumResenas": 305,
+    "img": "https://pics.filmaffinity.com/El_pianista-978132965-large.jpg",
+    "link" : "Pianista.html"
+  },
+  {
+    "Nombre": "El Gran Dictador",
+    "Anio": 1940,
+    "Genero": "Comedia",
+    "Descripcion": "La película es una sátira política que se burla de Adolf Hitler y el nazismo. La película sigue a un barbero judío (Charlie Chaplin) que se parece al dictador de Tomania, Adenoid Hynkel (también interpretado por Chaplin). La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.5,
+    "NumResenas": 184,
+    "img": "https://historia1imagen.files.wordpress.com/2008/06/chaplin-gram-dictador.jpg",
+    "link" : "GranDictador.html"
+  },
+  {
+    "Nombre": "El Club de los Cinco",
+    "Anio": 1985,
+    "Genero": "Drama",
+    "Descripcion": "La película sigue a cinco estudiantes de secundaria que representan diferentes estereotipos de la escuela secundaria: el atleta, el cerebrito, el marginado, la princesa y el delincuente. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.2,
+    "NumResenas": 126,
+    "img": "https://pics.filmaffinity.com/El_club_de_los_cinco-192309838-large.jpg",
+    "link" : "ClubCinco.html"
+  },
+  {
+    "Nombre": "El Rey León",
+    "Anio": 1994,
+    "Genero": "Animación",
+    "Descripcion": "La película cuenta la historia de Simba, un joven león que es el heredero del trono de su padre, Mufasa. Después de que Mufasa es asesinado por su hermano Scar, Simba huye y debe enfrentar su destino para convertirse en el rey que está destinado a ser. La película es conocida por su animación, la música y la historia.",
+    "Calificacion": 4.9,
+    "NumResenas": 294,
+    "img": "https://es.web.img3.acsta.net/medias/nmedia/18/68/20/31/19785394.jpg?coixp=47&coiyp=41",
+    "link" : "ReyLeon.html"
+  },
+  {
+    "Nombre": "El Exorcista",
+    "Anio": 1973,
+    "Genero": "Terror",
+    "Descripcion": "La película sigue a Regan MacNeil (Linda Blair), una niña poseída por un demonio. Su madre (Ellen Burstyn) busca la ayuda de dos sacerdotes para exorcizar al demonio. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.6,
+    "NumResenas": 421,
+    "img": "https://musicart.xboxlive.com/7/2fb15000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+    "link" : "Exorcista.html"
+  },{
+    "Nombre": "Dune",
+    "Anio": 2021,
+    "Genero": "Ciencia Ficcion",
+    "Descripcion": "Dune es una película épica de ciencia ficción dirigida por Denis Villeneuve y escrita por Eric Roth, Jon Spaihts y el propio director. Es una coproducción internacional de Estados Unidos, Reino Unido, Canadá y Hungría y constituye la primera entrega de dos películas basada en una nueva versión revisada fiel a la novela homónima de 1965 de Frank Herbert.",
+    "Calificacion": 3.5,
+    "NumResenas": 423,
+    "img": "https://m.media-amazon.com/images/M/MV5BODI0YjNhNjUtYjM0My00MTUwLWFlYTMtMWI2NGUzYjNjNGQzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+    "link" : "dune.html"
+  },
+  {
+    "Nombre": "Joker",
+    "Anio": 2019,
+    "Genero": "Suspenso psicológico",
+    "Descripcion": "Joker es una película de suspenso psicológico estadounidense de 2019 dirigida por Todd Phillips, quien coescribió el guion con Scott Silver. Basada en personajes de DC Comics, la película está protagonizada por Joaquin Phoenix como el Joker.",
+    "Calificacion": 5,
+    "NumResenas": 653,
+    "img": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+    "link" : "joker.html"
+  },
+  {
+    "Nombre": "Tenet",
+    "Anio": 2020,
+    "Genero": "Ciencia Ficcion",
+    "Descripcion": "Tenet es una película de espionaje y ciencia ficción de 2020 escrita y dirigida por Christopher Nolan, quien también produjo la película con Emma Thomas. La película está protagonizada por John David Washington, Robert Pattinson, Elizabeth Debicki, Dimple Kapadia, Michael Caine y Kenneth Branagh",
+    "Calificacion": 5,
+    "NumResenas": 3569,
+    "img": "https://m.media-amazon.com/images/M/MV5BMzU3YWYwNTQtZTdiMC00NjY5LTlmMTMtZDFlYTEyODBjMTk5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+    "link" : "tenet.html"
+  }
+        ];
+    
+        function obtenerPeliculaAleatoria() {
+            var indiceAleatorio = Math.floor(Math.random() * peliculas.length);
+            return peliculas.splice(indiceAleatorio, 1)[0];
+        }
 
-            if (data.length > 0) {
-                // Hay películas, mostrarlas
-                data.forEach(movie => {
-                const movieElement = document.createElement('div');
-                movieElement.innerHTML = `
-                    <h3>${movie.Nombre}</h3>
-                    <p>Año: ${movie.Anio}</p>
-                    <p>Género: ${movie.Genero}</p>
-                    <p>Descripción: ${movie.Descripcion}</p>
-                    <hr>
-                `;
-                moviesContainer.appendChild(movieElement);
-                });
-            } else {
-                // No hay películas
-                moviesContainer.innerHTML = '<p>No hay películas disponibles</p>';
+        function generarEstrellas(calificacion) {
+            var starsHtml = '<ul class="list-unstyled d-flex justify-content-center mb-1" id="star-rating">';
+
+            var stars = Math.floor(calificacion);
+            var halfStar = calificacion - stars > 0 ? true : false;
+
+            for (var i = 1; i <= 5; i++) {
+                if (i <= stars) {
+                    starsHtml += '<li><a class="text-warning fa fa-star" href="#" id="star' + i + '"></a></li>';
+                } else if (halfStar && i == stars + 1) {
+                    starsHtml += '<li><a class="text-warning fa fa-star-half-alt" href="#" id="star' + i + '"></a></li>';
+                } else {
+                    starsHtml += '<li><a class="text-warning fa fa-star-o" href="#" id="star' + i + '"></a></li>';
+                }
             }
-            })
-            .catch(error => {
-            // Manejar errores
-            console.error('Error al obtener las películas:', error);
-            const moviesContainer = document.getElementById('moviesContainer');
-            moviesContainer.innerHTML = '<p>Error al obtener las películas</p>';
-            });
+
+            starsHtml += '</ul>';
+            return starsHtml;
+        }
+
+        document.getElementById("peliculas-container").innerHTML = "";
+    
+        function cargarPeliculasAleatorias(filtro) {
+            var contenedor = document.getElementById("peliculas-container");
+    
+            for (var i = 0; i < 23; i++) {
+                var pelicula = obtenerPeliculaAleatoria();
+    
+                var cardHtml = '<div class="col-md-4">';
+                cardHtml += '<div class="card rounded-0">';
+                cardHtml += '<img class="card-img rounded-0 img-fluid" src="' + pelicula.img + '" alt="' + pelicula.Nombre + '">';
+                cardHtml += '<div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">';
+                cardHtml += '<ul class="list-unstyled">';
+                cardHtml += '<li><a class="btn btn-success text-white" href="favoritas.html"><i class="far fa-heart"></i></a></li>';
+                cardHtml += '<li><a class="btn btn-success text-white mt-2" href="movies/' + pelicula.link + '"><i class="far fa-eye"></i></a></li>';
+                cardHtml += '</ul></div>';
+                cardHtml += '</div>';
+                cardHtml += '<div class="card-body">';
+                cardHtml += '<a href="movies/' + pelicula.link + '" class="h3 text-decoration-none">' + pelicula.Nombre + '</a>';
+                cardHtml += '<ul class="w-100 list-unstyled d-flex justify-content-between mb-0">';
+                cardHtml += '<li>' + pelicula.Anio + '</li>';
+                cardHtml += '<li class="pt-2">';
+                cardHtml += '<span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>';
+                cardHtml += '<span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>';
+                cardHtml += '<span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>';
+                cardHtml += '<span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>';
+                cardHtml += '<span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>';
+                cardHtml += '</li>';
+                cardHtml += '</ul>';
+                cardHtml += generarEstrellas(pelicula.rating);
+                cardHtml += '</ul>';
+                cardHtml += '<p class="text-center mb-0">' + pelicula.Genero + '</p>';
+                cardHtml += '</div></div>';
+    
+                contenedor.innerHTML += cardHtml;
+            }
+
+            // Aplicar el filtro
+            if (filtro === "a-z") {
+                // Ordenar por título de A a Z
+                peliculas.sort((a, b) => a.Nombre.localeCompare(b.Nombre));
+            } else if (filtro === "ano") {
+                // Ordenar por año de lanzamiento
+                peliculas.sort((a, b) => a.Anio - b.Anio);
+            } else if (filtro === "calificacion") {
+                // Ordenar por calificación de mayor a menor
+                peliculas.sort((a, b) => b.NumResenas - a.NumResenas);
+            }
+
+            // Limpiar el contenedor antes de cargar nuevas películas
+            document.getElementById("peliculas-container").innerHTML = "";
+        }
+
+    window.onload = function () {
+        cargarPeliculasAleatorias();
+
+        document.getElementById("filtro-peliculas").addEventListener("change", function () {
+            var filtroSeleccionado = this.value;
+            cargarPeliculasAleatorias(filtroSeleccionado);
         });
 
-      </script>
+        // Restaurar el array original para futuras llamadas
+        var peliculasOriginales = peliculas.slice();
+
+        document.getElementById("categoria-accion").addEventListener("click", function () {
+            cargarPeliculasPorCategoria("Accion");
+        });
+
+        document.getElementById("categoria-drama").addEventListener("click", function () {
+            cargarPeliculasPorCategoria("Drama");
+        });
+
+        document.getElementById("categoria-fantasia").addEventListener("click", function () {
+            cargarPeliculasPorCategoria("Fantasía");
+        });
+
+        document.getElementById("categoria-crimen").addEventListener("click", function () {
+            cargarPeliculasPorCategoria("Crimen");
+        });
+
+        document.getElementById("categoria-western").addEventListener("click", function () {
+            cargarPeliculasPorCategoria("Western");
+        });
+
+        document.getElementById("categoria-suspenso").addEventListener("click", function () {
+            cargarPeliculasPorCategoria("Suspenso psicológico");
+        });
+
+        document.getElementById("categoria-cienciaficcion").addEventListener("click", function () {
+            cargarPeliculasPorCategoria("Ciencia ficción");
+        });
+
+        document.getElementById("categoria-thriller").addEventListener("click", function () {
+            cargarPeliculasPorCategoria("Thriller");
+        });
+
+        document.getElementById("categoria-terror").addEventListener("click", function () {
+            cargarPeliculasPorCategoria("Terror");
+        });
+
+        document.getElementById("categoria-comedia").addEventListener("click", function () {
+            cargarPeliculasPorCategoria("Comedia");
+        });
+
+        document.getElementById("categoria-animacion").addEventListener("click", function () {
+            cargarPeliculasPorCategoria("Animación");
+        });
+
+        function cargarPeliculasPorCategoria(categoria) {
+            console.log("Cargando películas para la categoría:", categoria);
+            var peliculasFiltradas = peliculas.filter(function (pelicula) {
+                return pelicula.Genero === categoria;
+            });
+
+            // Restaurar el array original para futuras llamadas
+            peliculas = peliculasOriginales.slice();
+
+            // Limpiar el contenedor antes de cargar nuevas películas
+            document.getElementById("peliculas-container").innerHTML = "";
+
+            // Cargar las películas aleatorias en el contenedor
+            cargarPeliculasAleatorias();
+        }
+    };
+    </script>
+    
     <!-- End Script -->
 </body>
 

@@ -6,7 +6,8 @@
     "Descripcion": "La película sigue la vida de la familia Corleone, una poderosa familia de la mafia italoamericana liderada por Don Vito Corleone (Marlon Brando). La historia se centra en el hijo menor de Don Vito, Michael Corleone (Al Pacino), quien asume el control de la familia después de que su padre es atacado. La película es conocida por su actuación estelar, la dirección y la música.",
     "Calificacion": 4.3,
     "NumResenas": 267,
-    "img": ""
+    "img": "https://musicart.xboxlive.com/7/61295200-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+    "link" : "ElPadrino.html"
   },
   {
     "Nombre": "El Caballero de la Noche",
@@ -15,7 +16,8 @@
     "Descripcion": "La película sigue al superhéroe Batman (Christian Bale) mientras lucha contra el crimen en Ciudad Gótica. En esta entrega, Batman se enfrenta al Joker (Heath Ledger), un villano psicótico que amenaza con destruir la ciudad. La película es conocida por su actuación estelar, la dirección y la música.",
     "Calificacion": 4.8,
     "NumResenas": 431,
-    "img": ""
+    "img": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpghttps://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
+    "link" : "DarkNight.html"
   },
   {
     "Nombre": "La Lista de Schindler",
@@ -24,7 +26,8 @@
     "Descripcion": "La película cuenta la historia de Oskar Schindler (Liam Neeson), un empresario alemán que salva a más de mil judíos polacos durante el Holocausto empleándolos como trabajadores de sus fábricas. La película es conocida por su dirección, la actuación y la música.",
     "Calificacion": 4.9,
     "NumResenas": 372,
-    "img": ""
+    "img": "https://es.web.img3.acsta.net/pictures/19/02/12/18/49/4078948.jpg",
+    "link" : "ListaSchindler.html"
   },
   {
     "Nombre": "El Señor de los Anillos: El Retorno del Rey",
@@ -33,7 +36,8 @@
     "Descripcion": "La película es la tercera y última entrega de la trilogía de El Señor de los Anillos. La historia sigue al hobbit Frodo Bolsón (Elijah Wood) mientras intenta destruir el Anillo Único en el Monte del Destino. La película es conocida por su dirección, la actuación y la música.",
     "Calificacion": 4.7,
     "NumResenas": 289,
-    "img": ""
+    "img": "https://pics.filmaffinity.com/El_seanor_de_los_anillos_El_retorno_del_rey-178294596-mmed.jpg",
+    "link" : "RetornoRey.html"
   },
   {
     "Nombre": "Pulp Fiction",
@@ -42,7 +46,8 @@
     "Descripcion": "La película cuenta varias historias interconectadas sobre la vida de gánsteres, boxeadores, asesinos y otros personajes en Los Ángeles. La película es conocida por su dirección, la actuación y la música.",
     "Calificacion": 4.5,
     "NumResenas": 198,
-    "img": ""
+    "img": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+    "link" : "PulpFiction.html"
   },
   {
     "Nombre": "El Bueno, el Malo y el Feo",
@@ -51,7 +56,8 @@
     "Descripcion": "La película sigue a tres hombres que buscan un tesoro enterrado en un cementerio. La película es conocida por su dirección, la actuación y la música.",
     "Calificacion": 4.2,
     "NumResenas": 356,
-    "img": ""
+    "img": "https://www.themoviedb.org/t/p/w500/vd9uj5KLlOrJnvNH03exLDlMAE0.jpg",
+    "link" : "BuenoMaloFeo.html"
   },
   {
     "Nombre": "El Club de la Pelea",
@@ -60,7 +66,8 @@
     "Descripcion": "La película sigue a un hombre sin nombre (Edward Norton) que lucha contra su insomnio y su aburrida vida. Conoce a Tyler Durden (Brad Pitt), un vendedor de jabón carismático y desenfadado, y juntos forman un club de lucha clandestino. La película es conocida por su dirección, la actuación y la música.",
     "Calificacion": 4.4,
     "NumResenas": 275,
-    "img": ""
+    "img": "https://imagenes.passline.com/eventos/el-club-de-la-pelea-cine-arte-vina-del-mar-220522-min.jpg",
+    "link" : "ClubPelea.html"
   },
   {
     "Nombre": "Forrest Gump",
@@ -69,7 +76,8 @@
     "Descripcion": "La película sigue la vida de Forrest Gump (Tom Hanks), un hombre con discapacidad intelectual que vive una vida extraordinaria. La película es conocida por su dirección, la actuación y la música.",
     "Calificacion": 4.6,
     "NumResenas": 413,
-    "img": ""
+    "img": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+    "link" : "ForrestGump.html"
   },
   {
     "Nombre": "El Silencio de los Inocentes",
@@ -78,7 +86,8 @@
     "Descripcion": "La película sigue a Clarice Starling (Jodie Foster), una joven agente del FBI que busca la ayuda del Dr. Hannibal Lecter (Anthony Hopkins), un psiquiatra caníbal encarcelado, para atrapar a un asesino en serie. La película es conocida por su dirección, la actuación y la música.",
     "Calificacion": 4.9,
     "NumResenas": 487,
-    "img": ""
+    "img": "https://es.web.img3.acsta.net/medias/nmedia/18/74/29/15/19757760.jpg",
+    "link" : "SilencioInocentes.html"
   },
   {
     "Nombre": "El Señor de los Anillos: La Comunidad del Anillo",
@@ -87,7 +96,8 @@
     "Descripcion": "La película es la primera entrega de la trilogía de El Señor de los Anillos. La historia sigue al hobbit Frodo Bolsón (Elijah Wood) mientras intenta destruir el Anillo Único en el Monte del Destino. La película es conocida por su dirección, la actuación y la música.",
     "Calificacion": 4.8,
     "NumResenas": 304,
-    "img": ""
+    "img": "https://pics.filmaffinity.com/El_seanor_de_los_anillos_La_comunidad_del_anillo-744631610-large.jpg",
+    "link" : "ComunidadAnillo.html"
   },
   {
     "Nombre": "Matrix",
@@ -96,7 +106,8 @@
     "Descripcion": "La película sigue a Thomas Anderson (Keanu Reeves), un programador de computadoras que descubre que su realidad es una simulación creada por máquinas. La película es conocida por su dirección, la actuación y los efectos especiales.",
     "Calificacion": 4.7,
     "NumResenas": 248,
-    "img": ""
+    "img": "https://pics.filmaffinity.com/Matrix-155050517-large.jpg",
+    "link" : "Matrix.html"
   },
   {
     "Nombre": "Star Wars: Episodio V - El Imperio Contraataca",
@@ -105,7 +116,8 @@
     "Descripcion": "La película es la segunda entrega de la trilogía original de Star Wars. La historia sigue a Luke Skywalker.",
     "Calificacion": 4.6,
     "NumResenas": 398,
-    "img": ""
+    "img": "https://m.media-amazon.com/images/I/819b4+jy74L._AC_UF894,1000_QL80_.jpg",
+    "link" : "EpisodioV.html"
   },
   {
     "Nombre": "El Resplandor",
@@ -114,7 +126,8 @@
     "Descripcion": "La película sigue a Jack Torrance (Jack Nicholson), un escritor en busca de inspiración que acepta un trabajo como cuidador de invierno en el Hotel Overlook. Con el tiempo, Jack comienza a perder la cordura y aterroriza a su familia. La película es conocida por su dirección, la actuación y la música.",
     "Calificacion": 4.5,
     "NumResenas": 361,
-    "img": ""
+    "img": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2016/11/resplandor.jpg?tf=1920x",
+    "link" : "Resplandor.html"
   },
   {
     "Nombre": "El Señor de los Anillos: Las Dos Torres",
@@ -123,7 +136,8 @@
     "Descripcion": "La película es la segunda entrega de la trilogía de El Señor de los Anillos. La historia sigue al hobbit Frodo Bolsón (Elijah Wood) mientras intenta destruir el Anillo Único en el Monte del Destino. La película es conocida por su dirección, la actuación y la música.",
     "Calificacion": 4.7,
     "NumResenas": 472,
-    "img": ""
+    "img": "https://musicart.xboxlive.com/7/fdd21000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+    "link" : "DosTorres.html"
   },
   {
     "Nombre": "El Pianista",
@@ -132,7 +146,8 @@
     "Descripcion": "La película cuenta la historia de Władysław Szpilman (Adrien Brody), un pianista judío polaco que sobrevive al Holocausto en Varsovia. La película es conocida por su dirección, la actuación y la música.",
     "Calificacion": 4.8,
     "NumResenas": 305,
-    "img": ""
+    "img": "https://pics.filmaffinity.com/El_pianista-978132965-large.jpg",
+    "link" : "Pianista.html"
   },
   {
     "Nombre": "El Gran Dictador",
@@ -141,7 +156,8 @@
     "Descripcion": "La película es una sátira política que se burla de Adolf Hitler y el nazismo. La película sigue a un barbero judío (Charlie Chaplin) que se parece al dictador de Tomania, Adenoid Hynkel (también interpretado por Chaplin). La película es conocida por su dirección, la actuación y la música.",
     "Calificacion": 4.5,
     "NumResenas": 184,
-    "img": ""
+    "img": "https://historia1imagen.files.wordpress.com/2008/06/chaplin-gram-dictador.jpg",
+    "link" : "GranDictador.html"
   },
   {
     "Nombre": "El Club de los Cinco",
@@ -150,7 +166,8 @@
     "Descripcion": "La película sigue a cinco estudiantes de secundaria que representan diferentes estereotipos de la escuela secundaria: el atleta, el cerebrito, el marginado, la princesa y el delincuente. La película es conocida por su dirección, la actuación y la música.",
     "Calificacion": 4.2,
     "NumResenas": 126,
-    "img": ""
+    "img": "https://pics.filmaffinity.com/El_club_de_los_cinco-192309838-large.jpg",
+    "link" : "ClubCinco.html"
   },
   {
     "Nombre": "El Rey León",
@@ -159,7 +176,8 @@
     "Descripcion": "La película cuenta la historia de Simba, un joven león que es el heredero del trono de su padre, Mufasa. Después de que Mufasa es asesinado por su hermano Scar, Simba huye y debe enfrentar su destino para convertirse en el rey que está destinado a ser. La película es conocida por su animación, la música y la historia.",
     "Calificacion": 4.9,
     "NumResenas": 294,
-    "img": ""
+    "img": "https://es.web.img3.acsta.net/medias/nmedia/18/68/20/31/19785394.jpg?coixp=47&coiyp=41",
+    "link" : "ReyLeon.html"
   },
   {
     "Nombre": "El Exorcista",
@@ -168,15 +186,38 @@
     "Descripcion": "La película sigue a Regan MacNeil (Linda Blair), una niña poseída por un demonio. Su madre (Ellen Burstyn) busca la ayuda de dos sacerdotes para exorcizar al demonio. La película es conocida por su dirección, la actuación y la música.",
     "Calificacion": 4.6,
     "NumResenas": 421,
-    "img": ""
+    "img": "https://musicart.xboxlive.com/7/2fb15000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+    "link" : "Exorcista.html"
+  },{
+    "Nombre": "Dune",
+    "Anio": 2021,
+    "Genero": "Ciencia Ficcion",
+    "Descripcion": "Dune es una película épica de ciencia ficción dirigida por Denis Villeneuve y escrita por Eric Roth, Jon Spaihts y el propio director. Es una coproducción internacional de Estados Unidos, Reino Unido, Canadá y Hungría y constituye la primera entrega de dos películas basada en una nueva versión revisada fiel a la novela homónima de 1965 de Frank Herbert.",
+    "Calificacion": 3.5,
+    "NumResenas": 423,
+    "img": "https://m.media-amazon.com/images/M/MV5BODI0YjNhNjUtYjM0My00MTUwLWFlYTMtMWI2NGUzYjNjNGQzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+    "link" : "dune.html"
   },
   {
-    "Nombre": "El Señor de los Anillos: La Batalla por la Tierra Media",
-    "Anio": 2004,
-    "Genero": "Fantasía",
-    "Descripcion": "La película es la tercera entrega de la trilogía de El Señor de los Anillos. La historia sigue al hobbit Frodo Bolsón (Elijah Wood) mientras intenta destruir el Anillo Único en el Monte del Destino. La película es conocida por su dirección, la actuación y la música.",
-    "Calificacion": 4.7,
-    "NumResenas": 376,
-    "img": ""
+    "Nombre": "Joker",
+    "Anio": 2019,
+    "Genero": "Suspenso psicológico",
+    "Descripcion": "Joker es una película de suspenso psicológico estadounidense de 2019 dirigida por Todd Phillips, quien coescribió el guion con Scott Silver. Basada en personajes de DC Comics, la película está protagonizada por Joaquin Phoenix como el Joker.",
+    "Calificacion": 5,
+    "NumResenas": 653,
+    "img": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+    "link" : "joker.html"
+  },
+  {
+    "Nombre": "Tenet",
+    "Anio": 2020,
+    "Genero": "Ciencia Ficcion",
+    "Descripcion": "Tenet es una película de espionaje y ciencia ficción de 2020 escrita y dirigida por Christopher Nolan, quien también produjo la película con Emma Thomas. La película está protagonizada por John David Washington, Robert Pattinson, Elizabeth Debicki, Dimple Kapadia, Michael Caine y Kenneth Branagh",
+    "Calificacion": 5,
+    "NumResenas": 3569,
+    "img": "https://m.media-amazon.com/images/M/MV5BMzU3YWYwNTQtZTdiMC00NjY5LTlmMTMtZDFlYTEyODBjMTk5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+    "link" : "tenet.html"
   }
+
+
 ]
