@@ -1,163 +1,182 @@
 [
-    {
-      "Nombre": "El Padrino",
-      "Anio": 1972,
-      "Genero": "Drama",
-      "Descripcion": "La película sigue la vida de la familia Corleone, una poderosa familia de la mafia italoamericana liderada por Don Vito Corleone (Marlon Brando). La historia se centra en el hijo menor de Don Vito, Michael Corleone (Al Pacino), quien asume el control de la familia después de que su padre es atacado. La película es conocida por su actuación estelar, la dirección y la música.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "El Caballero de la Noche",
-      "Anio": 2008,
-      "Genero": "Acción",
-      "Descripcion": "La película sigue al superhéroe Batman (Christian Bale) mientras lucha contra el crimen en Ciudad Gótica. En esta entrega, Batman se enfrenta al Joker (Heath Ledger), un villano psicótico que amenaza con destruir la ciudad. La película es conocida por su actuación estelar, la dirección y la música.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "La Lista de Schindler",
-      "Anio": 1993,
-      "Genero": "Drama",
-      "Descripcion": "La película cuenta la historia de Oskar Schindler (Liam Neeson), un empresario alemán que salva a más de mil judíos polacos durante el Holocausto empleándolos como trabajadores de sus fábricas. La película es conocida por su dirección, la actuación y la música.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "El Señor de los Anillos: El Retorno del Rey",
-      "Anio": 2003,
-      "Genero": "Fantasía",
-      "Descripcion": "La película es la tercera y última entrega de la trilogía de El Señor de los Anillos. La historia sigue al hobbit Frodo Bolsón (Elijah Wood) mientras intenta destruir el Anillo Único en el Monte del Destino. La película es conocida por su dirección, la actuación y la música.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "Pulp Fiction",
-      "Anio": 1994,
-      "Genero": "Crimen",
-      "Descripcion": "La película cuenta varias historias interconectadas sobre la vida de gánsteres, boxeadores, asesinos y otros personajes en Los Ángeles. La película es conocida por su dirección, la actuación y la música.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "El Bueno, el Malo y el Feo",
-      "Anio": 1966,
-      "Genero": "Western",
-      "Descripcion": "La película sigue a tres hombres que buscan un tesoro enterrado en un cementerio. La película es conocida por su dirección, la actuación y la música.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "El Club de la Pelea",
-      "Anio": 1999,
-      "Genero": "Drama",
-      "Descripcion": "La película sigue a un hombre sin nombre (Edward Norton) que lucha contra su insomnio y su aburrida vida. Conoce a Tyler Durden (Brad Pitt), un vendedor de jabón carismático y desenfadado, y juntos forman un club de lucha clandestino. La película es conocida por su dirección, la actuación y la música.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "Forrest Gump",
-      "Anio": 1994,
-      "Genero": "Drama",
-      "Descripcion": "La película sigue la vida de Forrest Gump (Tom Hanks), un hombre con discapacidad intelectual que vive una vida extraordinaria. La película es conocida por su dirección, la actuación y la música.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "El Silencio de los Inocentes",
-      "Anio": 1991,
-      "Genero": "Thriller",
-      "Descripcion": "La película sigue a Clarice Starling (Jodie Foster), una joven agente del FBI que busca la ayuda del Dr. Hannibal Lecter (Anthony Hopkins), un psiquiatra caníbal encarcelado, para atrapar a un asesino en serie. La película es conocida por su dirección, la actuación y la música.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "El Señor de los Anillos: La Comunidad del Anillo",
-      "Anio": 2001,
-      "Genero": "Fantasía",
-      "Descripcion": "La película es la primera entrega de la trilogía de El Señor de los Anillos. La historia sigue al hobbit Frodo Bolsón (Elijah Wood) mientras intenta destruir el Anillo Único en el Monte del Destino. La película es conocida por su dirección, la actuación y la música.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "Matrix",
-      "Anio": 1999,
-      "Genero": "Ciencia ficción",
-      "Descripcion": "La película sigue a Thomas Anderson (Keanu Reeves), un programador de computadoras que descubre que su realidad es una simulación creada por máquinas. La película es conocida por su dirección, la actuación y los efectos especiales.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "Star Wars: Episodio V - El Imperio Contraataca",
-      "Anio": 1980,
-      "Genero": "Ciencia ficción",
-      "Descripcion": "La película es la segunda entrega de la trilogía original de Star Wars. La historia sigue a Luke Skywalker.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "El Resplandor",
-      "Anio": 1980,
-      "Genero": "Terror",
-      "Descripcion": "La película sigue a Jack Torrance (Jack Nicholson), un escritor en busca de inspiración que acepta un trabajo como cuidador de invierno en el Hotel Overlook. Con el tiempo, Jack comienza a perder la cordura y aterroriza a su familia. La película es conocida por su dirección, la actuación y la música.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "El Señor de los Anillos: Las Dos Torres",
-      "Anio": 2002,
-      "Genero": "Fantasía",
-      "Descripcion": "La película es la segunda entrega de la trilogía de El Señor de los Anillos. La historia sigue al hobbit Frodo Bolsón (Elijah Wood) mientras intenta destruir el Anillo Único en el Monte del Destino. La película es conocida por su dirección, la actuación y la música.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "El Pianista",
-      "Anio": 2002,
-      "Genero": "Drama",
-      "Descripcion": "La película cuenta la historia de Władysław Szpilman (Adrien Brody), un pianista judío polaco que sobrevive al Holocausto en Varsovia. La película es conocida por su dirección, la actuación y la música.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "El Gran Dictador",
-      "Anio": 1940,
-      "Genero": "Comedia",
-      "Descripcion": "La película es una sátira política que se burla de Adolf Hitler y el nazismo. La película sigue a un barbero judío (Charlie Chaplin) que se parece al dictador de Tomania, Adenoid Hynkel (también interpretado por Chaplin). La película es conocida por su dirección, la actuación y la música.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "El Club de los Cinco",
-      "Anio": 1985,
-      "Genero": "Drama",
-      "Descripcion": "La película sigue a cinco estudiantes de secundaria que representan diferentes estereotipos de la escuela secundaria: el atleta, el cerebrito, el marginado, la princesa y el delincuente. La película es conocida por su dirección, la actuación y la música.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "El Rey León",
-      "Anio": 1994,
-      "Genero": "Animación",
-      "Descripcion": "La película cuenta la historia de Simba, un joven león que es el heredero del trono de su padre, Mufasa. Después de que Mufasa es asesinado por su hermano Scar, Simba huye y debe enfrentar su destino para convertirse en el rey que está destinado a ser. La película es conocida por su animación, la música y la historia.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "El Exorcista",
-      "Anio": 1973,
-      "Genero": "Terror",
-      "Descripcion": "La película sigue a Regan MacNeil (Linda Blair), una niña poseída por un demonio. Su madre (Ellen Burstyn) busca la ayuda de dos sacerdotes para exorcizar al demonio. La película es conocida por su dirección, la actuación y la música.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    },
-    {
-      "Nombre": "El Señor de los Anillos: La Batalla por la Tierra Media",
-      "Anio": 2004,
-      "Genero": "Fantasía",
-      "Descripcion": "La película es la tercera entrega de la trilogía de El Señor de los Anillos. La historia sigue al hobbit Frodo Bolsón (Elijah Wood) mientras intenta destruir el Anillo Único en el Monte del Destino. La película es conocida por su dirección, la actuación y la música.",
-      "Calificacion": 0,
-      "NumResenas": 0
-    }
-  ]
-  
+  {
+    "Nombre": "El Padrino",
+    "Anio": 1972,
+    "Genero": "Drama",
+    "Descripcion": "La película sigue la vida de la familia Corleone, una poderosa familia de la mafia italoamericana liderada por Don Vito Corleone (Marlon Brando). La historia se centra en el hijo menor de Don Vito, Michael Corleone (Al Pacino), quien asume el control de la familia después de que su padre es atacado. La película es conocida por su actuación estelar, la dirección y la música.",
+    "Calificacion": 4.3,
+    "NumResenas": 267,
+    "img": ""
+  },
+  {
+    "Nombre": "El Caballero de la Noche",
+    "Anio": 2008,
+    "Genero": "Acción",
+    "Descripcion": "La película sigue al superhéroe Batman (Christian Bale) mientras lucha contra el crimen en Ciudad Gótica. En esta entrega, Batman se enfrenta al Joker (Heath Ledger), un villano psicótico que amenaza con destruir la ciudad. La película es conocida por su actuación estelar, la dirección y la música.",
+    "Calificacion": 4.8,
+    "NumResenas": 431,
+    "img": ""
+  },
+  {
+    "Nombre": "La Lista de Schindler",
+    "Anio": 1993,
+    "Genero": "Drama",
+    "Descripcion": "La película cuenta la historia de Oskar Schindler (Liam Neeson), un empresario alemán que salva a más de mil judíos polacos durante el Holocausto empleándolos como trabajadores de sus fábricas. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.9,
+    "NumResenas": 372,
+    "img": ""
+  },
+  {
+    "Nombre": "El Señor de los Anillos: El Retorno del Rey",
+    "Anio": 2003,
+    "Genero": "Fantasía",
+    "Descripcion": "La película es la tercera y última entrega de la trilogía de El Señor de los Anillos. La historia sigue al hobbit Frodo Bolsón (Elijah Wood) mientras intenta destruir el Anillo Único en el Monte del Destino. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.7,
+    "NumResenas": 289,
+    "img": ""
+  },
+  {
+    "Nombre": "Pulp Fiction",
+    "Anio": 1994,
+    "Genero": "Crimen",
+    "Descripcion": "La película cuenta varias historias interconectadas sobre la vida de gánsteres, boxeadores, asesinos y otros personajes en Los Ángeles. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.5,
+    "NumResenas": 198,
+    "img": ""
+  },
+  {
+    "Nombre": "El Bueno, el Malo y el Feo",
+    "Anio": 1966,
+    "Genero": "Western",
+    "Descripcion": "La película sigue a tres hombres que buscan un tesoro enterrado en un cementerio. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.2,
+    "NumResenas": 356,
+    "img": ""
+  },
+  {
+    "Nombre": "El Club de la Pelea",
+    "Anio": 1999,
+    "Genero": "Drama",
+    "Descripcion": "La película sigue a un hombre sin nombre (Edward Norton) que lucha contra su insomnio y su aburrida vida. Conoce a Tyler Durden (Brad Pitt), un vendedor de jabón carismático y desenfadado, y juntos forman un club de lucha clandestino. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.4,
+    "NumResenas": 275,
+    "img": ""
+  },
+  {
+    "Nombre": "Forrest Gump",
+    "Anio": 1994,
+    "Genero": "Drama",
+    "Descripcion": "La película sigue la vida de Forrest Gump (Tom Hanks), un hombre con discapacidad intelectual que vive una vida extraordinaria. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.6,
+    "NumResenas": 413,
+    "img": ""
+  },
+  {
+    "Nombre": "El Silencio de los Inocentes",
+    "Anio": 1991,
+    "Genero": "Thriller",
+    "Descripcion": "La película sigue a Clarice Starling (Jodie Foster), una joven agente del FBI que busca la ayuda del Dr. Hannibal Lecter (Anthony Hopkins), un psiquiatra caníbal encarcelado, para atrapar a un asesino en serie. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.9,
+    "NumResenas": 487,
+    "img": ""
+  },
+  {
+    "Nombre": "El Señor de los Anillos: La Comunidad del Anillo",
+    "Anio": 2001,
+    "Genero": "Fantasía",
+    "Descripcion": "La película es la primera entrega de la trilogía de El Señor de los Anillos. La historia sigue al hobbit Frodo Bolsón (Elijah Wood) mientras intenta destruir el Anillo Único en el Monte del Destino. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.8,
+    "NumResenas": 304,
+    "img": ""
+  },
+  {
+    "Nombre": "Matrix",
+    "Anio": 1999,
+    "Genero": "Ciencia ficción",
+    "Descripcion": "La película sigue a Thomas Anderson (Keanu Reeves), un programador de computadoras que descubre que su realidad es una simulación creada por máquinas. La película es conocida por su dirección, la actuación y los efectos especiales.",
+    "Calificacion": 4.7,
+    "NumResenas": 248,
+    "img": ""
+  },
+  {
+    "Nombre": "Star Wars: Episodio V - El Imperio Contraataca",
+    "Anio": 1980,
+    "Genero": "Ciencia ficción",
+    "Descripcion": "La película es la segunda entrega de la trilogía original de Star Wars. La historia sigue a Luke Skywalker.",
+    "Calificacion": 4.6,
+    "NumResenas": 398,
+    "img": ""
+  },
+  {
+    "Nombre": "El Resplandor",
+    "Anio": 1980,
+    "Genero": "Terror",
+    "Descripcion": "La película sigue a Jack Torrance (Jack Nicholson), un escritor en busca de inspiración que acepta un trabajo como cuidador de invierno en el Hotel Overlook. Con el tiempo, Jack comienza a perder la cordura y aterroriza a su familia. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.5,
+    "NumResenas": 361,
+    "img": ""
+  },
+  {
+    "Nombre": "El Señor de los Anillos: Las Dos Torres",
+    "Anio": 2002,
+    "Genero": "Fantasía",
+    "Descripcion": "La película es la segunda entrega de la trilogía de El Señor de los Anillos. La historia sigue al hobbit Frodo Bolsón (Elijah Wood) mientras intenta destruir el Anillo Único en el Monte del Destino. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.7,
+    "NumResenas": 472,
+    "img": ""
+  },
+  {
+    "Nombre": "El Pianista",
+    "Anio": 2002,
+    "Genero": "Drama",
+    "Descripcion": "La película cuenta la historia de Władysław Szpilman (Adrien Brody), un pianista judío polaco que sobrevive al Holocausto en Varsovia. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.8,
+    "NumResenas": 305,
+    "img": ""
+  },
+  {
+    "Nombre": "El Gran Dictador",
+    "Anio": 1940,
+    "Genero": "Comedia",
+    "Descripcion": "La película es una sátira política que se burla de Adolf Hitler y el nazismo. La película sigue a un barbero judío (Charlie Chaplin) que se parece al dictador de Tomania, Adenoid Hynkel (también interpretado por Chaplin). La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.5,
+    "NumResenas": 184,
+    "img": ""
+  },
+  {
+    "Nombre": "El Club de los Cinco",
+    "Anio": 1985,
+    "Genero": "Drama",
+    "Descripcion": "La película sigue a cinco estudiantes de secundaria que representan diferentes estereotipos de la escuela secundaria: el atleta, el cerebrito, el marginado, la princesa y el delincuente. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.2,
+    "NumResenas": 126,
+    "img": ""
+  },
+  {
+    "Nombre": "El Rey León",
+    "Anio": 1994,
+    "Genero": "Animación",
+    "Descripcion": "La película cuenta la historia de Simba, un joven león que es el heredero del trono de su padre, Mufasa. Después de que Mufasa es asesinado por su hermano Scar, Simba huye y debe enfrentar su destino para convertirse en el rey que está destinado a ser. La película es conocida por su animación, la música y la historia.",
+    "Calificacion": 4.9,
+    "NumResenas": 294,
+    "img": ""
+  },
+  {
+    "Nombre": "El Exorcista",
+    "Anio": 1973,
+    "Genero": "Terror",
+    "Descripcion": "La película sigue a Regan MacNeil (Linda Blair), una niña poseída por un demonio. Su madre (Ellen Burstyn) busca la ayuda de dos sacerdotes para exorcizar al demonio. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.6,
+    "NumResenas": 421,
+    "img": ""
+  },
+  {
+    "Nombre": "El Señor de los Anillos: La Batalla por la Tierra Media",
+    "Anio": 2004,
+    "Genero": "Fantasía",
+    "Descripcion": "La película es la tercera entrega de la trilogía de El Señor de los Anillos. La historia sigue al hobbit Frodo Bolsón (Elijah Wood) mientras intenta destruir el Anillo Único en el Monte del Destino. La película es conocida por su dirección, la actuación y la música.",
+    "Calificacion": 4.7,
+    "NumResenas": 376,
+    "img": ""
+  }
+]

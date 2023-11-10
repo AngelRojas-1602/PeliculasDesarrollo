@@ -1,232 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Pelis BUAP-Inicio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-Kf2RXFR8h5Ejz6I3jepduWl6pXssYAbpAxb8Jfj2p5O9n9u6r6ccJlTtg1F8fV/1kgqPZEHLywh1jddqRZKlUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/templatemo.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
-
-    <!-- Load fonts style after rendering the layout styles -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webleb</title>
+    <link rel="stylesheet" href="assets/css/login.css">
 </head>
-
-<body>
-    <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow">
-        <div class="container d-flex justify-content-between align-items-center">
-
-            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
-                Pelis BUAP
-            </a>
-
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
-                <div class="flex-fill">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="shop.html">Calificar Pelicula</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="navbar align-self-center d-flex">
-                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
-                        <div class="input-group">
-                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
-                            <div class="input-group-text">
-                                <i class="fa fa-fw fa-search"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
-                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
-                    </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="favoritas.html">
-                        <i class="fa fa-fw fa-heart text-dark mr-1"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
-                    </a>                                        
-                    <a class="nav-icon position-relative text-decoration-none" href="/login.html">
-                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
-                    </a>
-                </div>
-            </div>
-
-        </div>
-    </nav>
-    <!-- Close Header -->
-
-    <!-- Modal -->
-    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="w-100 pt-1 mb-5 text-right">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <form action="" method="get" class="modal-content modal-body border-0 p-0">
-                <div class="input-group mb-2">
-                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
-                    <button type="submit" class="input-group-text bg-success text-light">
-                        <i class="fa fa-fw fa-search text-white"></i>
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
-
-    <!--Aqui va el Login y Register-->
-    <div class="modal fade" id="templatemo_login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Iniciar Sesión</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                    <form id="loginForm" action="#" method="post">
-                        <div class="mb-3">
-                            <label for="username" class="form-label">Usuario</label>
-                            <input type="text" class="form-control" id="username" name="username" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="password" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="password" name="password" required>
-                        </div>
-                        <button type="button" class="btn btn-success" id="loginButton">Iniciar Sesión</button>
-                    </form>
-              </div>
-              <div class="modal-footer">
-                  <p class="text-muted">¿No tienes una cuenta? <a href="/register.html">Regístrate</a></p>
-              </div>
-          </div>
-      </div>
-    </div>
-    <!-- Aquí termina el Login y Register -->
-
-    <!-- Start Footer -->
-    <footer class="bg-dark" id="tempaltemo_footer">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Pelis BUAP</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li>
-                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                            Avenida San Claudio, Blvrd 14 Sur, Cdad. Universitaria, 72592 Puebla, Pue.
-                        </li>
-                        <li>
-                            <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none" href="tel:010-020-0340">+52 951-308-2895</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="mailto:info@company.com">angel.rojasp@buap.com.mx</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Generos</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="/shop.html">Accion</a></li>
-                        <li><a class="text-decoration-none" href="/shop.html">Comedia</a></li>
-                        <li><a class="text-decoration-none" href="/shop.html">Drama</a></li>
-                        <li><a class="text-decoration-none" href="/shop.html">Romance</a></li>
-                        <li><a class="text-decoration-none" href="/shop.html">Ciencia Ficcion</a></li>
-                        <li><a class="text-decoration-none" href="/shop.html">Fantasia</a></li>
-                        <li><a class="text-decoration-none" href="/shop.html">Terror & Thriller</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Mas Informacion</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="/index.html">Inicio</a></li>
-                        <li><a class="text-decoration-none" href="/about.html">Nosotros</a></li>
-                        <li><a class="text-decoration-none" href="/contact.html">Contactanos</a></li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="w-100 bg-black py-3">
-            <div class="container">
-                <div class="row pt-2">
-                    <div class="col-12">
-                        <p class="text-left text-light">
-                            Copyright &copy; 2023 | Designed by Angel Rojas
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </footer>
-    <!-- End Footer -->
-
-    <!-- Start Script -->
-    <script src="assets/js/jquery-1.11.0.min.js"></script>
-    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!-- Script para manejar el inicio de sesión -->
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const loginForm = document.getElementById('loginForm');
-        const loginButton = document.getElementById('loginButton');
-    
-        loginButton.addEventListener('click', function () {
-            const username = document.getElementById('username').value;
-            const password = document.getElementById('password').value;
-    
-            // Realizar la solicitud de inicio de sesión al backend
-            fetch('http://tu-backend/api/login', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ username, password }),
-            })
-            .then(response => response.json())
-            .then(data => {
-                // Manejar la respuesta del backend
-                if (data.success) {
-                    // Inicio de sesión exitoso, redireccionar o realizar acciones adicionales
-                    alert('Inicio de sesión exitoso');
-                    // Puedes redireccionar a otra página aquí si es necesario
-                } else {
-                    // Inicio de sesión fallido, mostrar un mensaje de error
-                    alert('Inicio de sesión fallido');
-                }
-            })
-            .catch(error => {
-                // Manejar errores de la solicitud
-                console.error('Error al iniciar sesión:', error);
-                alert('Error al iniciar sesión');
-            });
-        });
-    });
-    </script>
+<body style="display:flex; align-items:center; justify-content:center;">
+<div class="login-page">
+  <div class="form">
+    <form class="register-form" method="POST">
+      <h2>Register</h2>
+      <input type="text" placeholder="Full Name *" required/>
+      <input type="text" placeholder="Username *" required/>
+      <input type="email" placeholder="Email *" required/>
+      <input type="password" placeholder="Password *" required/>
+      <a class="btn" href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Create
+      </a>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form class="login-form" method="post">
+      <h2></i> Login</h2>
+      <input type="text" placeholder="Username" required />
+      <input type="password" placeholder="Password" required/>
+      <a class="btn" href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Sign in
+      </a>
+      <p class="message">Not registered? <a href="#">Create an account</a></p>
+    </form>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="assets/js/main.js"></script>
     <!-- End Script -->
 </body>
-
 </html>
+
