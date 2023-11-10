@@ -8,10 +8,10 @@ import {
   deleteUser,
 } from "../controllers/users.controller.js";
 
-router.get("/users", getUsers);
+router.get("/", getUsers);
 
-router.post("/users", createUser);
+router.post("/", createUser);
 
-router.delete("/users/:id", deleteUser);
+router.delete("/:id", deleteUser);
 
 export default router;

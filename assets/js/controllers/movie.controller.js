@@ -2,19 +2,30 @@ import Movie from "../models/Movie.js";
 
 export const getMovies = async (req, res, next) => {
   try {
+    console.log("Attempting to fetch movies...");
     const movies = await Movie.find();
+    console.log("Movies fetched successfully:", movies);
+    if (!movies || movies.length === 0) {
+      return res.status(404).json({ error: "No hay películas disponibles" });
+    }
     res.json(movies);
   } catch (error) {
+    console.error("Error fetching movies:", error);
     next(error);
   }
 };
 
 export const createMovie = async (req, res, next) => {
   try {
-    const { Nombre, Año, Genero, Descripcion } = req.body;
+    const { Nombre, Anio, Genero, Descripcion } = req.body;
+    if (!Nombre || !Anio || !Genero || !Descripcion) {
+      const error = new Error("Todos los campos son obligatorios");
+      error.status = 400;
+      throw error;
+    }
     const newMovie = new Movie({
       Nombre,
-      Año,
+      Anio,
       Genero,
       Descripcion,
     });
@@ -59,13 +70,18 @@ export const deleteMovie = async (req, res, next) => {
 
 export const updateMovie = async (req, res, next) => {
   try {
-    const { Nombre, Año, Genero, Descripcion } = req.body;
+    const { Nombre, Anio, Genero, Descripcion } = req.body;
+    if (!Nombre || !Anio || !Genero || !Descripcion) {
+      const error = new Error("Todos los campos son obligatorios");
+      error.status = 400;
+      throw error;
+    }
     const movieUpdated = await Movie.findByIdAndUpdate(
       req.params.id,
       {
         $set: {
           Nombre,
-          Año,
+          Anio,
           Genero,
           Descripcion,
         },
@@ -74,7 +90,9 @@ export const updateMovie = async (req, res, next) => {
         new: true,
       }
     );
-
+    if (!movieUpdated) {
+      return res.status(404).json({ error: "La película no existe" });
+    }
     return res.json(movieUpdated);
   } catch (error) {
     next(error);

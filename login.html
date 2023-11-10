@@ -101,18 +101,17 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                  <!-- Formulario de inicio de sesión -->
-                  <form id="loginForm">
-                      <div class="mb-3">
-                          <label for="username" class="form-label">Usuario</label>
-                          <input type="text" class="form-control" id="username" name="username" required>
-                      </div>
-                      <div class="mb-3">
-                          <label for="password" class="form-label">Contraseña</label>
-                          <input type="password" class="form-control" id="password" name="password" required>
-                      </div>
-                      <button type="submit" class="btn btn-success">Iniciar Sesión</button>
-                  </form>
+                    <form id="loginForm" action="#" method="post">
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Usuario</label>
+                            <input type="text" class="form-control" id="username" name="username" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                        </div>
+                        <button type="button" class="btn btn-success" id="loginButton">Iniciar Sesión</button>
+                    </form>
               </div>
               <div class="modal-footer">
                   <p class="text-muted">¿No tienes una cuenta? <a href="/register.html">Regístrate</a></p>
@@ -189,6 +188,44 @@
     <script src="assets/js/jquery-1.11.0.min.js"></script>
     <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Script para manejar el inicio de sesión -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const loginForm = document.getElementById('loginForm');
+        const loginButton = document.getElementById('loginButton');
+    
+        loginButton.addEventListener('click', function () {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+    
+            // Realizar la solicitud de inicio de sesión al backend
+            fetch('http://tu-backend/api/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ username, password }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Manejar la respuesta del backend
+                if (data.success) {
+                    // Inicio de sesión exitoso, redireccionar o realizar acciones adicionales
+                    alert('Inicio de sesión exitoso');
+                    // Puedes redireccionar a otra página aquí si es necesario
+                } else {
+                    // Inicio de sesión fallido, mostrar un mensaje de error
+                    alert('Inicio de sesión fallido');
+                }
+            })
+            .catch(error => {
+                // Manejar errores de la solicitud
+                console.error('Error al iniciar sesión:', error);
+                alert('Error al iniciar sesión');
+            });
+        });
+    });
+    </script>
     <!-- End Script -->
 </body>
 

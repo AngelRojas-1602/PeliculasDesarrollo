@@ -1,11 +1,15 @@
 import User from "../models/User.js";
 
-export const getUsers = async (req, res, next) => {
+// users.controller.js
+export const getUsers = async (req, res) => {
   try {
-    const users = await User.find();
+    // Lógica para obtener usuarios de la base de datos
+    const users = await User.find();  // Suponiendo que estás utilizando Mongoose
+    console.log("Usuarios recuperados:", users);
     res.json(users);
   } catch (error) {
-    next(error);
+    console.error("Error al obtener usuarios:", error);
+    res.status(500).json({ error: "Error interno del servidor" });
   }
 };
 

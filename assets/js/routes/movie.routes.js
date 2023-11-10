@@ -1,16 +1,17 @@
 import { Router } from "express";
+
+const router = Router();
+
 import {
   getMovies,
   createMovie,
   deleteMovie,
-} from "../controllers/movies.controller.js";
+} from "../controllers/movie.controller.js";
 
-const router = Router();
+router.get("/", getMovies);
 
-router.get("/movies", getMovies);
+router.post("/", createMovie);
 
-router.post("/movies", createMovie);
-
-router.delete("/movies/:id", deleteMovie);
+router.delete("/:id", deleteMovie);
 
 export default router;

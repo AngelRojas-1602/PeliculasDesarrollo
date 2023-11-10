@@ -137,9 +137,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="container" id="contenedor-peliculas">
-                        <!-- Las películas se agregarán aquí dinámicamente desde JavaScript -->
-                    </div>
+                    <div id="moviesContainer"></div>
                 </div>
             </div>
         </div>
@@ -215,6 +213,45 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/templatemo.min.js"></script>
     <script src="assets/js/custom.js"></script>
+
+    <script>
+        // En tu archivo JavaScript
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Hacer una solicitud GET al endpoint de películas
+  fetch('http://tu-backend/api/movies')
+    .then(response => response.json())
+    .then(data => {
+      // Manejar la respuesta y mostrar las películas en el contenedor
+      const moviesContainer = document.getElementById('moviesContainer');
+
+      if (data.length > 0) {
+        // Hay películas, mostrarlas
+        data.forEach(movie => {
+          const movieElement = document.createElement('div');
+          movieElement.innerHTML = `
+            <h3>${movie.Nombre}</h3>
+            <p>Año: ${movie.Anio}</p>
+            <p>Género: ${movie.Genero}</p>
+            <p>Descripción: ${movie.Descripcion}</p>
+            <hr>
+          `;
+          moviesContainer.appendChild(movieElement);
+        });
+      } else {
+        // No hay películas
+        moviesContainer.innerHTML = '<p>No hay películas disponibles</p>';
+      }
+    })
+    .catch(error => {
+      // Manejar errores
+      console.error('Error al obtener las películas:', error);
+      const moviesContainer = document.getElementById('moviesContainer');
+      moviesContainer.innerHTML = '<p>Error al obtener las películas</p>';
+    });
+});
+
+      </script>
     <!-- End Script -->
 </body>
 

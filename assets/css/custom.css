@@ -1,3 +1,59 @@
-/*
-Custom Css
-*/
+/* Estilo para el fondo del modal */
+.modal-content {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+}
+
+/* Estilo para el título del modal */
+.modal-title {
+    color: #28a745;
+}
+
+/* Estilo para el cuerpo del modal */
+.modal-body {
+    padding: 20px;
+}
+
+/* Estilo para las etiquetas de los campos */
+.form-label {
+    color: #333333;
+}
+
+/* Estilo para los campos de entrada */
+.form-control {
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+/* Estilo para el botón de inicio de sesión */
+#loginButton {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#loginButton:hover {
+    background-color: #218838;
+}
+
+/* Estilo para el pie de página del modal */
+.modal-footer {
+    border-top: 1px solid #dcdcdc;
+    padding: 15px;
+}
+
+/* Estilo para el enlace de registro en el pie de página */
+.modal-footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.modal-footer a:hover {
+    text-decoration: underline;
+}
